@@ -4,7 +4,7 @@
 * Dizzy
 
 ## Description
-An automation script for UnrealScript development which saves time.
+A shell script for UnrealScript development which automates the UScript build process (compiling, uploading, and restarting).
 
 Performs the following steps:
 1. Compiles the last-modified UScript project in your UT directory
