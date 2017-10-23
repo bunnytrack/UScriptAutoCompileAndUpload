@@ -40,7 +40,7 @@ recentFile=`ls -rt1 "$utDir/System/" | egrep \.u$ | tail -n 1`;
 
 read -rsp $'Compiled. Press any key to upload and test or Ctrl+C to exit...\n' -n1 key;
 
-echo "Uploading $utDir/System/$recentFile";
+echo "Uploading $utDir/System/$recentFile...";
 
 scp -P "$sshPort" -i "$sshIdFile" "$utDir/System/$recentFile" "$sshUser"@"$sshHost":"$remoteUTPath"System;
 
