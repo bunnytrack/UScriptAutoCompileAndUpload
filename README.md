@@ -9,8 +9,8 @@ A shell script which compiles the last-modified UScript project in your UT direc
 Designed to make UT mod-making/testing more efficient.
 
 ## Prerequisites
+Written for use via Cygwin or Cygwin Portable on Windows.  
 Requires `UMake.exe` and a remote Unreal Tournamnent server accessible via SSH.
-Written for use via Cygwin or Cygwin Portable on Windows.
 
 ## General Usage
 1. Edit the "Config" section of the script to specify your own settings/directories/etc.
