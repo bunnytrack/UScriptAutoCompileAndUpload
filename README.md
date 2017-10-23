@@ -4,7 +4,11 @@
 * Dizzy
 
 ## Description
-A shell script which compiles the last-modified UScript project in your UT directory, uploads the resulting .u file via ssh to a remote server, restarts the remote instance of UT, and launches a local copy of UT for testing.
+A shell script which automates the following steps:
+1. Compiles the last-modified UScript project in your UT directory
+2. Uploads the resulting compiled .u file via ssh to a remote UT server
+3. Restarts the remote instance of UT
+4. Launches a local copy of UT for play-testing
 
 Designed to make UT mod-making/testing more efficient.
 
