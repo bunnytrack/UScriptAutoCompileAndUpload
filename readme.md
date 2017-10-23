@@ -25,4 +25,4 @@ Requires `UMake.exe` and a remote Unreal Tournamnent server accessible via SSH.
 2017-10-20
 
 ## Website
-https://www.bunnytrack.net
+https://bunnytrack.net
