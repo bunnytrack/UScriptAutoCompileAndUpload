@@ -4,13 +4,13 @@
 * Dizzy
 
 ## Description
-A shell script which automates the following steps:
+An automation script for UnrealScript development which performs the following steps:
 1. Compiles the last-modified UScript project in your UT directory
 2. Uploads the resulting compiled .u file via ssh to a remote UT server
 3. Restarts the remote instance of UT
 4. Launches a local copy of UT for play-testing
 
-Designed to make UT mod-making/testing more efficient.
+Designed to make UScript development more efficient.
 
 ## Prerequisites
 Written for use via Cygwin or Cygwin Portable on Windows.  
